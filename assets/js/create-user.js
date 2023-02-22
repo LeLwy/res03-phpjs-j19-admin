@@ -11,10 +11,10 @@ function createUser(){
         let lastName = document.getElementById('lastname').value;
         let email = document.getElementById('email').value;
         
-        formData = new FormData();
+        let formData = new FormData();
         formData.append('username', username);
-        formData.append('firstName', firstName);
-        formData.append('lastName', lastName);
+        formData.append('first_name', firstName);
+        formData.append('last_name', lastName);
         formData.append('email', email);
         
         const options = {

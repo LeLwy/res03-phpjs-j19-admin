@@ -1,0 +1,47 @@
+<!DOCTYPE html>  
+<html lang="fr">  
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/styles/css/style.css" type="text/css" />
+    <title>Édition utilisateur</title>  
+    <script type="module" src="assets/js/index.js"></script>
+</head>    
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Accueil</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form id="update-user-form" method="post" action="">
+            <fieldset>
+                <label for="username">Nom d'utilisateur</label>
+                <input type="text" name="updated-user-name" id="username"/>
+            </fieldset>
+            <fieldset>
+                <label for="firstname">Prénom</label>
+                <input type="text" name="updated-user-firstname" id="firstname"/>
+            </fieldset>
+            <fieldset>
+                <label for="lastname">Nom</label>
+                <input type="text" name="updated-user-lastname" id="lastname"/>
+            </fieldset>
+            <fieldset>
+                <label for="email">Email</label>
+                <input type="email" name="updated-user-email" id="email"/>
+            </fieldset>
+            <input type="submit" value="Éditer l'utilisateur">
+        </form>
+    </main>
+    <footer>
+        
+    </footer>
+    <script type="module" src="assets/js/index.js"></script>
+</body>
+</html>
